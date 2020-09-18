@@ -47,3 +47,4 @@ void mul(int matrix_a[3][3], int matrix_b[3][3])
         
         
     }
+}
