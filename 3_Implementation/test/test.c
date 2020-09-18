@@ -8,8 +8,8 @@
 
 
 /* Prototypes for all the test functions */
- void test_add(int mat_a[3][3], int mat_b[3][3]);
-void test_mul(int mat_a[3][3], int mat_b[3][3]);
+ void test_add(int matrix_a[3][3], int matrix_b[3][3]);
+void test_mul(int matrix_a[3][3], int matrix_b[3][3]);
 
 /* Start of the application test */
 int main() {
@@ -44,19 +44,19 @@ int main() {
 /* Write all the test functions */ 
 void test_add(void) {
 	
-	mat_a[1][1]={100};
-	mat_b[1][1]={200};
+	matrix_a[1][1]={100};
+	matrix_b[1][1]={200};
 	
-	  CU_ASSERT(300 == add(mat_a[1][1], mat_b[1][1]);
+	  CU_ASSERT(300 == add(matrix_a[1][1], matrix_b[1][1]);
   
  
 }
 
 void test_mul(void) {
-	mat_a[1][1]={10};
-	mat_b[1][1]={20};
+	matrix_a[1][1]={10};
+	matrix_b[1][1]={20};
 	
-  CU_ASSERT(200 == mul(mat_a[1][1], mat_b[1][1]);
+  CU_ASSERT(200 == mul(matrix_a[1][1], matrix_b[1][1]);
   
 
 }
