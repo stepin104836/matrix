@@ -8,8 +8,8 @@
 
 
 /* Prototypes for all the test functions */
-void add(int_matrix_a[3][3], int matrix_b[3][3]);
-void mul(int matrix_a[3][3], int matrix_b[3][3]);
+ void test_add(int matrix_a[3][3], int matrix_b[3][3]);
+void test_mul(int matrix_a[3][3], int matrix_b[3][3]);
 
 /* Start of the application test */
 int main() {
@@ -26,7 +26,7 @@ int main() {
   
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "ADDITION", test_add);
-  CU_add_test(suite, "MULTIPLY", test_multiply);
+  CU_add_test(suite, "MULTIPLY", test_mul);
    
 
 /* Note: Do not edit START*/
