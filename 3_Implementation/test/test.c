@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
+#include <head.h>
 #define PROJECT_NAME    "Matrix calculator"
 
 
