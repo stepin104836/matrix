@@ -1,3 +1,7 @@
+#include<stdio.h>
+#include <calculator_operations.h>
+
+
 int main()
 {
     
