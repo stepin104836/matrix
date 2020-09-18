@@ -44,10 +44,10 @@ int main() {
 /* Write all the test functions */ 
 void test_add(void) {
 	
-	matrix_a[1][1]={100};
-	matrix_b[1][1]={200};
+	matrix_a[1][1]= 100;
+	matrix_b[1][1]= 200;
 	
-	  CU_ASSERT(300 == add(matrix_a[1][1], matrix_b[1][1]);
+	  CU_ASSERT(300 == add(matrix_a[1][1], matrix_b[1][1]));
   
  
 }
