@@ -28,7 +28,6 @@ int main() {
   CU_add_test(suite, "ADDITION", test_add);
   CU_add_test(suite, "MULTIPLY", test_mul);
    
-
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
